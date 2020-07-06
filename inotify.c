@@ -49,7 +49,7 @@ int main (int argc,char *argv[]){
 	
 	while (1){
 		inotify_read(fd);
-		sleep(3);
+		sleep(4);
 	}
 	
 	
